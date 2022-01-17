@@ -15,5 +15,9 @@
     "url": "https://github.com/Matias-Rondinella/Municipalidad-de-Lujan/issues"
   },
   "homepage": "https://github.com/Matias-Rondinella/Municipalidad-de-Lujan#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
 }
