@@ -2212,6 +2212,10 @@ input[type="button"].btn-block {
 .dropleft {
   position: relative; }
 
+.dropdownsIndex {
+  justify-content: space-evenly;
+  padding: 15px; }
+
 .dropdown-toggle {
   white-space: nowrap; }
   .dropdown-toggle::after {
@@ -7187,12 +7191,16 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 * {
-  margin: 0;
-  padding: 0; }
+  margin: 0px;
+  padding: 0px; }
 
 html {
   font-size: 62.5%; }
 
 @media only screen and (max-width: 767px) {
   .disNoMob {
+    display: none; } }
+
+@media only screen and (min-width: 1024px) {
+  .disNoDesk {
     display: none; } }
